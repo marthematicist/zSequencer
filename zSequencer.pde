@@ -55,7 +55,7 @@ void draw() {
 
 
 void keyPressed() {
-  float t = float( millis() );
+  int t = millis();
   if (key == 'a') {
     blockTriggered0 = true;
   }

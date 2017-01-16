@@ -14,8 +14,7 @@ boolean blockTriggered2 = false;
 boolean blockTriggered3 = false;
 
 color beatColor = color( 128 , 0 , 255 , 255 );
-boolean beatTriggered = true;
+boolean beatTriggered = false;
 
 Metronome M;
-float timingInputWeight1 = 0.25;
-float timingInputWeight2 = 0.5;
+int RAnum = 40;
